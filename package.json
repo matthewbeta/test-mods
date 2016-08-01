@@ -1,0 +1,19 @@
+{
+  "name": "test-mods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > app.min.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0"
+  },
+  "dependencies": {
+    "bluegg-modal": "github:bluegg/bluegg-modal",
+    "bluegg-tabs": "github:bluegg/bluegg-tabs"
+  }
+}
